@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainAppStackApp", "WiredBrainAppStackApp\WiredBrainAppStackApp.csproj", "{8DCAF436-B70F-40DB-BDDE-817CEE9D1264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainAppStackAppTest", "WiredBrainAppStackAppTest\WiredBrainAppStackAppTest.csproj", "{6C5D60E2-F155-466B-A033-F710B204525D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DCAF436-B70F-40DB-BDDE-817CEE9D1264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCAF436-B70F-40DB-BDDE-817CEE9D1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCAF436-B70F-40DB-BDDE-817CEE9D1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCAF436-B70F-40DB-BDDE-817CEE9D1264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5D60E2-F155-466B-A033-F710B204525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5D60E2-F155-466B-A033-F710B204525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5D60E2-F155-466B-A033-F710B204525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5D60E2-F155-466B-A033-F710B204525D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91E5CCF4-8238-4FE9-BCBB-77E723A11B3C}
+	EndGlobalSection
+EndGlobal

@@ -8,17 +8,17 @@ namespace WiredBrainAppStackApp
         [Fact]
         public void TestPushMethod()
         {
-            var stack = new SimpleStack();
+            var stackDouble = new SimpleStack<double>();
             double sum = 0.0;
 
-            stack.Push(1.2);
-            stack.Push(2.8);
-            stack.Push(3.0);
+            stackDouble.Push(1.2);
+            stackDouble.Push(2.8);
+            stackDouble.Push(3.0);
 
 
-            while (stack.Count > 0)
+            while (stackDouble.Count > 0)
             {
-                double item = stack.Pop();
+                double item = stackDouble.Pop();
                 Console.WriteLine($"Item: {item}");
                 sum += item;
             }
